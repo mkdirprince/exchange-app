@@ -37,7 +37,6 @@ const App = () => {
 
   const convertCurrency = (event) => {
     event.preventDefault()
-    console.log('it works')
 
     if(!Number(amount)) {
       return null
